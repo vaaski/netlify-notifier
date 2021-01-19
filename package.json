@@ -1,0 +1,40 @@
+{
+  "name": "netlify-notifier",
+  "version": "0.0.1",
+  "description": "notifiy about netlify events on telegram using netlify webhooks",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node -r dotenv/config src/index.js",
+    "test": "echo 'no tests'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaaski/netlify-notifier.git"
+  },
+  "keywords": [
+    "netlify",
+    "notify",
+    "telegram",
+    "webhook"
+  ],
+  "author": "vaaski <admin@vaa.ski>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaaski/netlify-notifier/issues"
+  },
+  "homepage": "https://github.com/vaaski/netlify-notifier#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "got": "^11.8.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.6",
+    "@types/localtunnel": "^2.0.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
