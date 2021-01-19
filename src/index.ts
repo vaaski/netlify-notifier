@@ -21,7 +21,7 @@ const formatDuration = (ms: number) => {
   }
   return Object.entries(time)
     .filter((val) => val[1] !== 0)
-    .map(([key, val]) => `${val} ${key}${val !== 1 ? "s" : ""}`)
+    .map(([key, val]) => `${val}${key}`)
     .join(", ")
 }
 const method = (m: string) => `https://api.telegram.org/bot${token}/${m}`
