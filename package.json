@@ -26,7 +26,7 @@
   "homepage": "https://github.com/vaaski/netlify-notifier#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "got": "^11.8.1",
+    "got": "^11.8.5",
     "koa": "^2.13.1",
     "koa-body": "^4.2.0"
   },
